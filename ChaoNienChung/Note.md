@@ -96,11 +96,11 @@ $期望值=勝率×平均賺＋賠率×平均賠$
 - 起始停損 → Exit = Min(Low, Low[1])
 - 當 High 突破 HH → HH = High
 - 當 Close 突破 HH → Exit = Min(Low, Low[1])
-
+&nbsp;
 - ATR = Average True Range (平均真實波動區間)
 - Max(High-Low ,  |High-Close[1]| , |Low-Close[1]|)
 - 通常設定 14 天的平均
-
+&nbsp;
 - 移動式可以搭配 ATR
 - 設定的 ExitPrice + N 倍的 ATR
 
